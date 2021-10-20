@@ -1,3 +1,75 @@
+# Fun-Ships
+Fun-Ships is battleship game designed on the original game.  
+
+For more information check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
+
+## How To Play
+
+
+## Features
+
+
+### Existing Features
+
+
+## Future Features
+
+
+
+##  Data Model
+
+
+
+##  Testing
+
+
+
+##  Bugs
+
+
+##  Remaining Bugs
+
+
+
+##  Validator Testing
+
+
+
+##  Deployment
+
+
+
+##  Testing
+
+
+
+##  Credits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome sundeepbassi,
