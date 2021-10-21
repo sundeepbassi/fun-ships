@@ -1,3 +1,8 @@
+#Legend
+# X for placing ship and hit battleship
+# ' ' for available space
+# '-' for missed shot
+
 from random import randint
 
 
@@ -19,7 +24,9 @@ def print_board(board):
 def make_ships():
     for ship in range(5):
         ship_row, ship_column = randint(0, 7), randint(0, 7)
-
+        while board[ship_row][ship_column] == 'x':
+            ship_row, ship_column = randint(0, 7), randint(0, 7)
+        board[ship_row][ship_column] = 'X'
 
 def bring_ship_place():
     pass
