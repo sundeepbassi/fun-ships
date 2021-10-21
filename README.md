@@ -1,7 +1,7 @@
 # Fun-Ships
 Fun-Ships is battleship game designed on the original game.  
 
-For more information check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
+For more information about battleships check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
 
 ## How To Play
 
@@ -45,7 +45,11 @@ For more information check out [Wikipedia](https://en.wikipedia.org/wiki/Battles
 
 ##  Credits
 
+Data modelling information from Database Design 2nd Edition
 
+[https://opentextbc.ca/dbdesign01/chapter/chapter-4-types-of-database-models/]
+
+[https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/]
 
 
 
