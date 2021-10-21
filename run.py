@@ -1,11 +1,13 @@
 # legend
 # X for placing ship and hit battleship
 # ' ' for available space
+# '-' for missed shot
 # '-' for missed shot  
 
 from random import randint
 
 
+# create board layout 
 # create board 
 
 HIDDEN_BOARD = [[' '] * 8 for x in range(8)]
@@ -39,25 +41,21 @@ def bring_ship_place():
     column = input('To hit a ship enter a column letter from A-H').upper()
     while column not in 'ABCDEFGH':
         print('Please enter a valid column')
+        print('Please enter a valid column')
         column = input('To hit a ship enter a column letter from A-H').upper()
-    return int(row) -1, lets_to_nums[column]
-  
+    return int(row) - 1, lets_to_nums[column]
+
+
 def count_attacked_ships(board):
     count = 0
     for row in board:
-      for column in row:
+        for column in row:
         if column == 'X':
-            count += 1
+        count += 1
     return count
 
     make_ships(HIDDEN_BOARD)
     turns = 10
     print_board(HIDDEN_BOARD,)
     print_board(GUESS_BOARD,)
-    #while turns > 0:   
-
-
-
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+    # while turns > 0:   
