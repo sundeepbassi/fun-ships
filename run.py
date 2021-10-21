@@ -17,6 +17,8 @@ def print_board(board):
         row_number += 1
 
 def make_ships():
+    for ship in range(5):
+        ship_row, ship_column = randint(0, 7), randint(0, 7)
 
 
 def bring_ship_place():
