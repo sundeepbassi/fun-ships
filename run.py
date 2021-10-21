@@ -1,4 +1,4 @@
-
+from random import randint
 
 
 #create board layout 
@@ -11,6 +11,10 @@ lets_to_nums = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7}
 def print_board(board):
     print(' a b c d f g h')
     print(' -------------')
+    row_number = 1
+    for row in board:
+        print("%d|%s|" % (row_number, "|".join(row)))
+        row_number += 1
 
 def make_ships():
 

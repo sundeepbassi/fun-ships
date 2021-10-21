@@ -60,6 +60,12 @@ are all accredited to:
 
 [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+The code added to the print_board function is accredited to:
+
+[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
 
 
     
