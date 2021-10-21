@@ -38,12 +38,17 @@ def bring_ship_place():
         Print('Please enter a valid column')
         column = input('To hit a ship enter a column letter from A-H').upper()
     return int(row) -1, lets_to_nums[column]
+  
+def count_attacked_ships(board):
+    count = 0
+    for row in board:
+      for column in row:
+        if column == 'X':
+            count += 1
+    return count
 
-    
-def count_attacked_ships():
-create_ships()
-turns = 10
-while turns > 0:
+    createg    
+
 
 
 

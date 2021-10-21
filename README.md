@@ -76,9 +76,25 @@ The code added to the make_ships function is accredited to:
 
 [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-The comment added at the top of the code file for the legend is accredited:
+The comment added at the top of the code file for the legend is accredited to:
 
 [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+The code added to the bring_ships_place function is accredited to:
+
+[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+The code added to the count_attacked_ships function  is accredited to:
+
+[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
+
+
+
+
+
 
 
 
