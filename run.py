@@ -50,12 +50,13 @@ def count_attacked_ships(board):
     count = 0
     for row in board:
         for column in row:
-        if column == 'X':
-        count += 1
+            if column == 'X':
+                count += 1
     return count
 
     make_ships(HIDDEN_BOARD)
     turns = 10
     print_board(HIDDEN_BOARD,)
     print_board(GUESS_BOARD,)
-    # while turns > 0:   
+    # while turns > 0:  
+     
