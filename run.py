@@ -6,10 +6,11 @@
 HIDDEN_BOARD = [[' '] * 8 for x in range(8)]
 GUESS_BOARD = [[' '] * 8 for x in range(8)]
 
-letters_to_numbers = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7}
+lets_to_nums = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7}
 
-def board():
-    pass
+def print_board(board):
+    print(' a b c d f g h')
+    print(' -------------')
 
 def make_ships():
 
@@ -20,6 +21,9 @@ def bring_ship_place():
 def count_attacked_ships():
     pass
 
+create_ships()
+turns = 10
+while turns > 0:
 
 
 
