@@ -47,9 +47,14 @@ For more information about battleships check out [Wikipedia](https://en.wikipedi
 
 Data modelling information from Database Design 2nd Edition
 
-[https://opentextbc.ca/dbdesign01/chapter/chapter-4-types-of-database-models/]
+[Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-4-types-of-database-models/)
 
-[https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/]
+[Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/)
+
+HIDDEN_BOARD and GUESS_BOARD is credited to:
+
+[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
 
 
 
