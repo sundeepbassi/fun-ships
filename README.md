@@ -76,6 +76,13 @@ The code added to the make_ships function is accredited to:
 
 [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+The comment added at the top of the code file for the legend is accredited:
+
+[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
+
 
 
 
