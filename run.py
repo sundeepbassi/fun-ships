@@ -17,7 +17,7 @@ lets_to_nums = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
 
 def print_board(board):
     print(' A B C D E F G H')
-    print(' -------------')
+    print(' ---------------')
     row_number = 1
     for row in board:
         print("%d|%s|" % (row_number, "|".join(row)))
@@ -33,7 +33,7 @@ def make_ships(board):
 
 
 def bring_ship_place():
-    row = input('To hit a ship 1enter a row from 1-8')
+    row = input('To hit a ship enter a row from 1-8')
     while row not in '12345678':
         print('Please enter a valid row')
         row = input('To hit a ship enter a row from 1-8')
@@ -53,6 +53,7 @@ def count_attacked_ships(board):
             if column == 'X':
                 count += 1
             return count
+
 
 make_ships(HIDDEN_BOARD)
 turns = 10
