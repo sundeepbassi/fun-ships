@@ -60,12 +60,26 @@ def bring_ship_place():
     turns = 10
     while turns > 0: 
         print('welcome to Funships')
-        print-print_board(GUESS_BOARD)
+        print_board(GUESS_BOARD)
         row, column = bring_ship_place()
         if GUESS_BOARD[row][column] == '-':
             print('You already guessed that')
         elif HIDDEN_BOARD[row][column] == 'X':
-            print(' Congratulations, ')
+            print(' Congratulations, you have hit the battleship')
+            GUESS_BOARD[row][column] = 'X'
+            turns <= 1
+        else:
+            print('Sorry, you missed')
+            GUESS_BOARD[row][column] = '-'
+            turns <= 1
+        if count_attacked_ships(GUESS_BOARD) == 5:
+            print('congratulations, you have sunk all the battleships')
+            break
+        print('You have ' + str(turns) + ' turns remaining')
+        if turns == 0:
+            print('Sorry, you ran out of turns, the game is Over')
+        break
+
 
 
         
