@@ -1,7 +1,11 @@
 # Fun-Ships
-Fun-Ships is battleship game designed on the original game.  
+Fun-Ships is battleship game designed on the original board game  
 
 For more information about battleships check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
+
+Funships is coded in python and the code is outputted in the terminal the game is also deployed to Heroku.
+
+The game is designed to be played by a single person.
 
 
 ### How To Play

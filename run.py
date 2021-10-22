@@ -3,8 +3,7 @@
 # ' ' for available space
 # '-' for missed shot
 
-# create board layout 
-# create board 
+# create board
 
 from random import randint
 
