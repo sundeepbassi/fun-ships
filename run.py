@@ -74,10 +74,3 @@ if count_attacked_ships(GUESS_BOARD) == 5:
     print('You have ' + str(turns) + ' turns remaining')
 if turns == 0:
     print('Sorry, you ran out of turns, the game is Over')
-    
-
-
-
-        
-
-

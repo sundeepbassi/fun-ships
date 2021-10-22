@@ -21,34 +21,41 @@ The game is designed to be played by a single person.
 
 
 
-##  Data Model
+###  Data Model
 
 
 
-##  Testing
+###  Testing
 
 
 
-##  Bugs
+###  Bugs
 
 
-##  Remaining Bugs
-
-
-
-##  Validator Testing
+###  Remaining Bugs
 
 
 
-##  Deployment
+###  Validator Testing
 
 
 
-##  Testing
+###  Deployment
 
 
 
-##  Credits
+### Testing
+
+I did manual testing on the project by:
+
+Putting the code into the Pep8 validator testing check.  The code was passed without any significant problems and errors.
+
+I also did tests on the inputs to see what would happen if incorrect data was inputted.
+
+The code was also tested on the local terminal and in Heroku. 
+
+
+###  Credits
 
 Data modelling information from Database Design 2nd Edition
 
@@ -96,6 +103,11 @@ The code added to the count_attacked_ships function  is accredited to:
 The code added to the make_ships function  is accredited to:
 
 [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+The information on constructing and checking the readme for the battleships game is accredited to the Code Institute
+Battleships game readme.
+
+
 
 
 
