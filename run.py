@@ -26,14 +26,16 @@ def print_board(board):
 
 
 def make_ships(board):
+    print(make_ships(board))
     for ship in range(5):
         ship_row, ship_column = randint(0, 7), randint(0, 7)
         while board[ship_row][ship_column] == 'x':
             ship_row, ship_column = randint(0, 7), randint(0, 7)
-        board[ship_row][ship_column] = 'X'
+            board[ship_row][ship_column] = 'X'
 
 
 def bring_ship_place():
+    print(bring_ship_place())
     row = input('To hit a ship enter a row from 1-8')
     while row not in '12345678':
         print('Please enter a valid row')
@@ -45,9 +47,9 @@ def bring_ship_place():
         column = input('To hit a ship enter a column letter from A-H').upper()
     return int(row) - 1, lets_to_nums[column]
 
-
-def count_attacked_ships(board):
-    count = 0
+    def count_attacked_ships(board):
+        print(count_attacked_ships(board))
+        count = 0
     for row in board:
         for column in row:
             if column == 'X':
@@ -59,4 +61,7 @@ def count_attacked_ships(board):
     print_board(HIDDEN_BOARD,)
     print_board(GUESS_BOARD,)
     # while turns > 0:  
-     
+
+        
+
+
