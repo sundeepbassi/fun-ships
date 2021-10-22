@@ -4,11 +4,10 @@
 # '-' for missed shot
 # '-' for missed shot  
 
-from random import randint
-
-
 # create board layout 
 # create board 
+
+from random import randint
 
 HIDDEN_BOARD = [[' '] * 8 for x in range(8)]
 GUESS_BOARD = [[' '] * 8 for x in range(8)]
@@ -26,7 +25,6 @@ def print_board(board):
 
 
 def make_ships(board):
-    print(make_ships(board))
     for ship in range(5):
         ship_row, ship_column = randint(0, 7), randint(0, 7)
         while board[ship_row][ship_column] == 'x':
@@ -35,8 +33,7 @@ def make_ships(board):
 
 
 def bring_ship_place():
-    print(bring_ship_place())
-    row = input('To hit a ship enter a row from 1-8')
+    row = input('To hit a ship 1enter a row from 1-8')
     while row not in '12345678':
         print('Please enter a valid row')
         row = input('To hit a ship enter a row from 1-8')
@@ -47,38 +44,38 @@ def bring_ship_place():
         column = input('To hit a ship enter a column letter from A-H').upper()
     return int(row) - 1, lets_to_nums[column]
 
-    def count_attacked_ships(board):
-        print(count_attacked_ships(board))
-        count = 0
+
+def count_attacked_ships(board):
+    print(count_attacked_ships(board))
+    count = 0
     for row in board:
         for column in row:
             if column == 'X':
                 count += 1
-    return count
+            return count
 
-    make_ships(HIDDEN_BOARD)
-    turns = 10
-    while turns > 0: 
-        print('welcome to Funships')
-        print_board(GUESS_BOARD)
-        row, column = bring_ship_place()
-        if GUESS_BOARD[row][column] == '-':
-            print('You already guessed that')
-        elif HIDDEN_BOARD[row][column] == 'X':
-            print(' Congratulations, you have hit the battleship')
-            GUESS_BOARD[row][column] = 'X'
-            turns <= 1
-        else:
-            print('Sorry, you missed')
-            GUESS_BOARD[row][column] = '-'
-            turns <= 1
-        if count_attacked_ships(GUESS_BOARD) == 5:
-            print('congratulations, you have sunk all the battleships')
-            break
-        print('You have ' + str(turns) + ' turns remaining')
-        if turns == 0:
-            print('Sorry, you ran out of turns, the game is Over')
-        break
+make_ships(HIDDEN_BOARD)
+turns = 10
+while turns > 0: 
+    print('welcome to Funships')
+    print_board(GUESS_BOARD)
+    row, column = bring_ship_place()
+    if GUESS_BOARD[row][column] == '-':
+        print('You already guessed that')
+    elif HIDDEN_BOARD[row][column] == 'X':
+        print(' Congratulations, you have hit the battleship')
+        GUESS_BOARD[row][column] = 'X'
+        turns <= 1
+    else:
+        print('Sorry, you missed')
+        GUESS_BOARD[row][column] = '-'
+        turns <= 1
+if count_attacked_ships(GUESS_BOARD) == 5:
+    print('congratulations, you have sunk all the battleships')
+    print('You have ' + str(turns) + ' turns remaining')
+if turns == 0:
+    print('Sorry, you ran out of turns, the game is Over')
+    
 
 
 
