@@ -53,13 +53,13 @@ def bring_ship_place():
     for row in board:
         for column in row:
             if column == 'X':
-                count += 1
+              count += 1
     return count
 
     make_ships(HIDDEN_BOARD)
     turns = 10
-    print_board(HIDDEN_BOARD,)
-    print_board(GUESS_BOARD,)
+    print_board(HIDDEN_BOARD)
+    print_board(GUESS_BOARD)
     # while turns > 0:  
 
         
