@@ -53,14 +53,20 @@ def bring_ship_place():
     for row in board:
         for column in row:
             if column == 'X':
-              count += 1
+                count += 1
     return count
 
     make_ships(HIDDEN_BOARD)
     turns = 10
-    print_board(HIDDEN_BOARD)
-    print_board(GUESS_BOARD)
-    # while turns > 0:  
+    while turns > 0: 
+        print('welcome to Funships')
+        print-print_board(GUESS_BOARD)
+        row, column = bring_ship_place()
+        if GUESS_BOARD[row][column] == '-':
+            print('You already guessed that')
+        elif HIDDEN_BOARD[row][column] == 'X':
+            print(' Congratulations, ')
+
 
         
 
