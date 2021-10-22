@@ -2,7 +2,6 @@
 # X for placing ship and hit battleship
 # ' ' for available space
 # '-' for missed shot
-# '-' for missed shot  
 
 # create board layout 
 # create board 
@@ -27,7 +26,7 @@ def print_board(board):
 def make_ships(board):
     for ship in range(5):
         ship_row, ship_column = randint(0, 7), randint(0, 7)
-        while board[ship_row][ship_column] == 'x':
+        while board[ship_row][ship_column] == 'X1':
             ship_row, ship_column = randint(0, 7), randint(0, 7)
             board[ship_row][ship_column] = 'X'
 

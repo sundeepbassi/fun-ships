@@ -4,16 +4,16 @@ Fun-Ships is battleship game designed on the original game.
 For more information about battleships check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
 
 
-## How To Play
+### How To Play
 
 
-## Features
+### Features
 
 
 ### Existing Features
 
 
-## Future Features
+### Future Features
 
 
 
