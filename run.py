@@ -14,8 +14,8 @@ lets_to_nums = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
 
 
 def print_board(board):
-    print(' A B C D E F G H')
-    print(' ---------------')
+    print('  A B C D E F G H ')
+    print(' -----------------')
     row_number = 1
     for row in board:
         print("%d|%s|" % (row_number, "|".join(row)))
@@ -25,21 +25,21 @@ def print_board(board):
 def make_ships(board):
     for ship in range(5):
         ship_row, ship_column = randint(0, 7), randint(0, 7)
-        while board[ship_row][ship_column] == 'X1':
+        while board[ship_row][ship_column] == 'X':
             ship_row, ship_column = randint(0, 7), randint(0, 7)
             board[ship_row][ship_column] = 'X'
 
 
 def bring_ship_place():
-    row = input('To hit a ship enter a row from 1-8')
+    row = input('To hit a ship enter a row from 1-8\n')
     while row not in '12345678':
         print('Please enter a valid row')
-        row = input('To hit a ship enter a row from 1-8')
-    column = input('To hit a ship enter a column letter from A-H').upper()
+        row = input('To hit a ship enter a row from 1-8\n')
+    column = input('To hit a ship enter a column letter from A-H\n').upper()
     while column not in 'ABCDEFGH':
         print('Please enter a valid column')
         print('Please enter a valid column')
-        column = input('To hit a ship enter a column letter from A-H').upper()
+        column = input('To hit a ship enter a column letter from A-H\n').upper()
     return int(row) - 1, lets_to_nums[column]
 
 

@@ -42,10 +42,12 @@
 
 ###  Data Model
  
-The model that I am using for this project is based on a grid board class.
+The model that I am using for this project is based on a grid board functions.
 In the game there are.
 
 The grid board class contains both the players and the computers boards.
+
+Explain the xs and the - 
 
 The grid board class contains the letters for the rows, the numbers for the columns, the amount of times to hit a ship.
 
@@ -137,7 +139,9 @@ are all accredited to:
 - The information on constructing and checking the readme for the battleships game is accredited to the Code Institute
 Battleships game readme.
 
+- My Mentor Miguel Martinez helped me to align the grid with spaces, and the lines.  Better visibility for the player.
 
+- Martin also helped me to insert line breaks for the input sections for the numbers and the letters.
 
 
 
