@@ -1,31 +1,58 @@
 # Fun-Ships
-Fun-Ships is battleship game designed on the original board game  
 
-For more information about battleships check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
+- Fun-Ships is battleship game designed on the original board game  
 
-Funships is coded in python and the code is outputted in the terminal the game is also deployed to Heroku.
+- For more information about battleships check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
 
-The game is designed to be played by a single person.
+- Funships is coded in python and the code is outputted in the terminal the game is also deployed to Heroku.
 
-
-### How To Play
+- The game is designed to be played by a single person.
 
 
-### Features
+## How To Play
+
+- The player has to input a number from 1 to 8.
+
+- Then the player has to input a letter between A and H.
+
+- X on the board is for placing and getting a ship.
+
+- "-" is a missed shot.
+
+
+
+## Features
 
 
 ### Existing Features
 
+- There ia a grid board for the player to play the game.
+
+- The player is given an option to input a number value for the rows.
+
+- The player is given an option to input a letter value for the columns.
+
+- The player has a chance to try and get 5 ships.
 
 ### Future Features
 
+- Allow player to have the opportunity to play against someone else.
 
+- Allow player to have more chances to attack the ships.
 
 ###  Data Model
 
 
 
 ###  Testing
+
+- I did manual testing on the project by:
+
+- Putting the code into the Pep8 validator testing check.  The code was passed without any significant problems and errors.
+
+- I also did tests on the inputs to see what would happen if incorrect data was inputted.
+
+- The code was also tested on the local terminal and in Heroku. 
 
 
 
@@ -37,74 +64,68 @@ The game is designed to be played by a single person.
 
 
 ###  Validator Testing
-
+- pep8
+       - No errors were returned from pep8online.com.
 
 
 ###  Deployment
+- The project was deployed using the code Instiutes mock terminal for Heroku.
 
-
-
-### Testing
-
-I did manual testing on the project by:
-
-Putting the code into the Pep8 validator testing check.  The code was passed without any significant problems and errors.
-
-I also did tests on the inputs to see what would happen if incorrect data was inputted.
-
-The code was also tested on the local terminal and in Heroku. 
-
+  - Steps for deployment:
+      - Fork or clone this repository
+      - Creat a new Heroku app
+      - Set the build blocks to Python and Nodejs in that order 
+      - Link the Heroku app to the repository
+      - Click on **Deploy**
 
 ###  Credits
 
-Data modelling information from Database Design 2nd Edition
+- Data modelling information from Database Design 2nd Edition
 
-[Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-4-types-of-database-models/)
+- [Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-4-types-of-database-models/)
 
-[Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/)
+- [Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/)
 
-HIDDEN_BOARD and GUESS_BOARD is accredited to:
+- HIDDEN_BOARD and GUESS_BOARD is accredited to:
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-These functions code used in the project, def board():, def make_ships():, def bring_ship_place():, def count_attacked_ships():,
+- These functions code used in the project, def board():, def make_ships():, def bring_ship_place():, def count_attacked_ships():,
 are all accredited to:
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-The code added to the print_board function is accredited to:
+- The code added to the print_board function is accredited to:
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-The random function import is accredited to both:
+- The random function import is accredited to both:
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-and
+- The code institute python essentials information.
 
-The code institute python essentials information.
+- The code added to the make_ships function is accredited to:
 
-The code added to the make_ships function is accredited to:
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- The comment added at the top of the code file for the legend is accredited to:
 
-The comment added at the top of the code file for the legend is accredited to:
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- The code added to the bring_ships_place function is accredited to:
 
-The code added to the bring_ships_place function is accredited to:
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- The code added to the count_attacked_ships function  is accredited to:
 
-The code added to the count_attacked_ships function  is accredited to:
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- The code added to the make_ships function  is accredited to:
 
-The code added to the make_ships function  is accredited to:
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-[Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
-
-The information on constructing and checking the readme for the battleships game is accredited to the Code Institute
+- The information on constructing and checking the readme for the battleships game is accredited to the Code Institute
 Battleships game readme.
 
 
@@ -152,34 +173,3 @@ Battleships game readme.
 
 
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome sundeepbassi,
-
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
