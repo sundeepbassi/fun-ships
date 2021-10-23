@@ -41,8 +41,17 @@
 - Allow player to have more chances to attack the ships.
 
 ###  Data Model
+ 
+The model that I am using for this project is based on a grid board class.
+In the game there are.
 
+The grid board class contains both the players and the computers boards.
 
+The grid board class contains the letters for the rows, the numbers for the columns, the amount of times to hit a ship.
+
+The grid class board enables the  inputting of information for the ships and the output from the computer.
+
+NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 ###  Testing
 
