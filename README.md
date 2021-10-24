@@ -143,6 +143,20 @@ Battleships game readme.
 
 - Martin also helped me to insert line breaks for the input sections for the numbers and the letters.
 
+- The code below is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+- LENGTH_OF_SHIPS = [2, 3, 3, 4, 5]
+- PLAYER_BOARD = [[" "] * 8 for i in range(8)]
+- COMPUTER_BOARD = [[" "] * 8 for i in range(8)]
+- PLAYER_GUESS_BOARD = [[" "] * 8 for i in range(8)]
+- COMPUTER_GUESS_BOARD = [[" "] * 8 for i in range(8)]
+- LET_TO_NUM = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
+
+
+
 
 
 
