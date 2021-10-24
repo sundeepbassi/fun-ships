@@ -36,15 +36,17 @@ def check_win(board, letter):
 
 # is a space free
 def is_free(board, position):
-  return board[position] == ' '
+    return board[position] == ' '
+
 
 # place the marker on the board
 def place_marker(board, mark, position):
-  board[position] = mark
+    board[position] = mark
+
 
 # who goes first
 def who_goes_first():
-  if random.randint(0,1) == 0:
-    return playerLetter
-  else:
-    return computerLetter
+    if random.randint(0, 1) == 0:
+        return playerLetter
+    else:
+        return computerLetter
