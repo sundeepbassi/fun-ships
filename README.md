@@ -75,6 +75,9 @@ NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 
 ###  Validator Testing
+
+- Removed errors from code after checking in pep8 mainly indentation errors were removed. 24/10/21.
+
 - pep8
        - No errors were returned from pep8online.com.
 
