@@ -105,6 +105,12 @@ NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+- The code for define the board is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
 
 
 
