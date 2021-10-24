@@ -17,8 +17,6 @@ def print_board(board):
         row_number += 1
         
 
-print_board(PLAYER_BOARD)
-
 def place_ships(board):
     pass
 
@@ -43,4 +41,4 @@ def count_hit_ships():
 def turn(board):
     pass
 
-#while true:
+# while true:
