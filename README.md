@@ -155,6 +155,14 @@ Battleships game readme.
 - COMPUTER_GUESS_BOARD = [[" "] * 8 for i in range(8)]
 - LET_TO_NUM = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
 
+- The code added to the print_board function  is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
+
+
 
 
 
