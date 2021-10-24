@@ -97,6 +97,28 @@ NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 - [Database Design](https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/)
 
+- The code for adding the import random is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+- The code for adding playerLetter and the computerLetter with values is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+The credits below were used for the design of previous projects,  I decided to keep them in the credits for both reference and research purposes.
+
 - HIDDEN_BOARD and GUESS_BOARD is accredited to:
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
