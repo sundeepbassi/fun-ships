@@ -54,13 +54,13 @@ def who_goes_first():
 
 # player turn
 def player_turn():
-    position = int(input('Choose a position: '))
+    position = int(input('Choose a position '))
     try:
         if is_free(board, position):
             place_marker(board, playerLetter, position)
         else:
-        print('This position is not free')
-        player_turn()
+            print('This position is not free')
+            player_turn()
     except:
         if position < 1 or position > 9:
             print('Please choose a number between 1 and 9')
@@ -77,6 +77,7 @@ def duplicate_board(board):
 
 # computer turn
 def computer_turn():
+    print("hello")
     # check if computer can win
     for i in range(1, 10):
         copy = duplicate_board(board)
@@ -86,7 +87,6 @@ def computer_turn():
             place_marker(board, computerLetter, i)
         return
     else:
-        # continue
         # check if player can win
         for i in range(1, 10):
             copy = duplicate_board(board)
@@ -96,7 +96,6 @@ def computer_turn():
             place_marker(board, computerLetter, i)
         return
     else:
-        continue
         # If computer plays first corners, middle, and edges
         possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]
         corners = [1, 3, 7, 9]
@@ -115,7 +114,9 @@ def computer_turn():
 def main():
     print('Welcome to Tic Tac Toe!')
     turn = who_goes_first()
+    print(f'Chosen to go first: {turn}')
     while True:
+        print(f"Who's turn it is: {turn}")
         if turn == playerLetter:
             print_board()
             player_turn()
@@ -127,20 +128,21 @@ def main():
                 print_board()
                 print('It is a draw!')
                 break
+            else:
+                turn = computerLetter
+                print("Computer turn next")
         else:
-            turn = computerLetter
-    else:
-        computer_turn()
-    if check_win(board, computerLetter):
-        print_board()
-        print('You lost!')
+            computer_turn()
+            if check_win(board, computerLetter):
+                print_board()
+                print('You lost!')
         # break
-    elif is_full():
-        print_board()
-        print('It is a draw!')
+            elif is_full():
+                print_board()
+                print('It is a draw!')
         # break
-    else:
-        turn = playerLetter
+            else:
+                turn = playerLetter
         
 
 # start the game
