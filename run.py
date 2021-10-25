@@ -77,7 +77,6 @@ def duplicate_board(board):
 
 # computer turn
 def computer_turn():
-    print("hello")
     # check if computer can win
     for i in range(1, 10):
         copy = duplicate_board(board)
@@ -85,13 +84,14 @@ def computer_turn():
         place_marker(copy, computerLetter, i)
         if check_win(copy, computerLetter):
             place_marker(board, computerLetter, i)
+            print("hello")
         return
     else:
         # check if player can win
         for i in range(1, 10):
             copy = duplicate_board(board)
-    if is_free(copy, i):
-        place_marker(copy, playerLetter, i)
+        if is_free(copy, i):
+            place_marker(copy, playerLetter, i)
         if check_win(copy, playerLetter):
             place_marker(board, computerLetter, i)
         return
