@@ -170,7 +170,7 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-- The code for the computer_turn function is accredited to:
+- The code for the check if the player can win function is accredited to:
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
@@ -182,41 +182,9 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+- The code for the computer_turn function is accredited to:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
 
 
@@ -300,7 +268,10 @@ Battleships game readme.
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+### Disclaimer
 
+- The contents of this project are solely for the purposes of education and research.  
+- All of  the information and code that has been used from outside resources has be accredited to that person or resource.
 
 
 
