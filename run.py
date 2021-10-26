@@ -1,7 +1,7 @@
 import random
 
-# The code below is accredited to - 
-# Knowledge Mavens 
+# The code below is accredited to
+# Knowledge Mavens
 # (https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
 
@@ -32,7 +32,7 @@ def print_board():
 # is the board full
 def is_full():
     return ' ' not in board[1:10]
- 
+
 
 # check if there is a winner
 def check_win(board, letter):
@@ -43,7 +43,7 @@ def check_win(board, letter):
         (board[2] == board[5] == board[8] == letter) or \
         (board[3] == board[6] == board[9] == letter) or \
         (board[1] == board[5] == board[9] == letter) or \
-        (board[3] == board[5] == board[7] == letter) 
+        (board[3] == board[5] == board[7] == letter)
 
 
 # is a space free
@@ -107,8 +107,9 @@ def computer_turn():
                     place_marker(board, computerLetter, i)
         else:
             continue
-        
-        # If computer plays first corners, middle, and edges
+
+
+# If computer plays first corners, middle, and edges
         possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]  # noqa: E501
         corners = [1, 3, 7, 9]
         edges = [2, 4, 6, 8]
@@ -116,7 +117,7 @@ def computer_turn():
             if i in possibleMoves:
                 return place_marker(board, computerLetter, i)
         if is_free(board, 5):
-            return place_marker(board, computerLetter, 5)   
+            return place_marker(board, computerLetter, 5)
         for i in edges:
             if i in possibleMoves:
                 return place_marker(board, computerLetter, i)
@@ -124,7 +125,7 @@ def computer_turn():
 
 # run the game
 def main():
-    print('Welcome to Tic Tac Toe!')
+    print('Welcome to Tic Tac Toe!') 
     turn = who_goes_first()
     print(f'Chosen to go first: {turn}')
     while True:
@@ -155,7 +156,7 @@ def main():
                 break
             else:
                 turn = playerLetter
-        
+
 
 # start the game
 main()
