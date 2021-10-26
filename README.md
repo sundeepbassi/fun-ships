@@ -8,6 +8,8 @@
 
 - The game is designed to be played by a single person against the computer.
 
+- The objective of the game is for the player to place an  3 X's on the grid board in a line to win.
+
 
 ## How To Play
 
@@ -18,6 +20,10 @@
 - X represents the players symbol on the grid.
 
 - O represents the computer symbol on the grid.
+
+- The player must try to get three x's in a line.
+
+- The Computer will try to block the player.
 
 
 
@@ -187,6 +193,9 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+- To add the # noqa: E501 at the end of line 112 is accredited to the tutors at the Code Institute 
+  for helping me to rectify this warning in pep 8 online validation checker.
+
 
 
 
@@ -273,6 +282,8 @@ Battleships game readme.
 
 - The contents of this project are solely for the purposes of education and research.  
 - All of  the information and code that has been used from outside resources has be accredited to that person or resource.
+
+## Acknowledgements 
 
 
 
