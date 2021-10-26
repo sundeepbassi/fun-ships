@@ -158,6 +158,10 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Geeks for Geeks](https://www.geeksforgeeks.org/loops-in-python/)
 
+- The code for the player_turn function is accredited to:
+
+
+
 
 
 
