@@ -7,6 +7,13 @@ computerLetter = 'O'
 board = [' ' for i in range(10)]
 
 
+def who_goes_first():
+    if random.randint(0, 1) == 0:
+        return playerLetter
+    else:
+        return computerLetter
+
+
 # print the board
 def print_board():
     print('#########################')
@@ -25,13 +32,13 @@ def is_full():
 # check if there is a winner
 def check_win(board, letter):
     return (board[1] == board[2] == board[3] == letter) or \
-         (board[4] == board[5] == board[6] == letter) or \
-         (board[7] == board[8] == board[9] == letter) or \
-         (board[1] == board[4] == board[7] == letter) or \
-         (board[2] == board[5] == board[8] == letter) or \
-         (board[3] == board[6] == board[9] == letter) or \
-         (board[1] == board[5] == board[9] == letter) or \
-         (board[3] == board[5] == board[7] == letter) 
+        (board[4] == board[5] == board[6] == letter) or \
+        (board[7] == board[8] == board[9] == letter) or \
+        (board[1] == board[4] == board[7] == letter) or \
+        (board[2] == board[5] == board[8] == letter) or \
+        (board[3] == board[6] == board[9] == letter) or \
+        (board[1] == board[5] == board[9] == letter) or \
+        (board[3] == board[5] == board[7] == letter) 
 
 
 # is a space free
@@ -54,7 +61,7 @@ def who_goes_first():
 
 # player turn
 def player_turn():
-    position = int(input('Choose a position '))
+    position = int(input('Choose a position between '))
     try:
         if is_free(board, position):
             place_marker(board, playerLetter, position)
@@ -80,22 +87,22 @@ def computer_turn():
     # check if computer can win
     for i in range(1, 10):
         copy = duplicate_board(board)
-    if is_free(copy, i):
-        place_marker(copy, computerLetter, i)
-        if check_win(copy, computerLetter):
-            place_marker(board, computerLetter, i)
-            print("hello")
-        return
-    else:
-        # check if player can win
-        for i in range(1, 10):
-            copy = duplicate_board(board)
         if is_free(copy, i):
-            place_marker(copy, playerLetter, i)
-        if check_win(copy, playerLetter):
-            place_marker(board, computerLetter, i)
-        return
-    else:
+            place_marker(copy, computerLetter, i)
+            if check_win(copy, computerLetter):
+                place_marker(board, computerLetter, i)
+        else:
+            continue
+    # check if player can win
+        for i in range(1, 10):
+            if is_free(copy, i):
+                copy = duplicate_board(board)
+                place_marker(copy, playerLetter, i)
+                if check_win(copy, playerLetter):
+                    place_marker(board, computerLetter, i)
+        else:
+            continue
+        
         # If computer plays first corners, middle, and edges
         possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]
         corners = [1, 3, 7, 9]
@@ -103,8 +110,8 @@ def computer_turn():
         for i in corners:
             if i in possibleMoves:
                 return place_marker(board, computerLetter, i)
-                if is_free(board, 5):
-                    return place_marker(board, computerLetter, 5)   
+        if is_free(board, 5):
+            return place_marker(board, computerLetter, 5)   
         for i in edges:
             if i in possibleMoves:
                 return place_marker(board, computerLetter, i)
@@ -136,11 +143,11 @@ def main():
             if check_win(board, computerLetter):
                 print_board()
                 print('You lost!')
-        # break
+                break
             elif is_full():
                 print_board()
                 print('It is a draw!')
-        # break
+                break
             else:
                 turn = playerLetter
         
