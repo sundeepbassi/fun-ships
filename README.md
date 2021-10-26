@@ -69,6 +69,15 @@ NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 ###  Bugs
 
+- There were bugs in the code that inhibited it from running properly.  I had to contact tutor support and reach out
+to the slack community for support.
+
+The bugs were removed and it was the tutorial from Knowledge Mavens that helped remove the bugs.
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
 
 ###  Remaining Bugs
 
@@ -136,6 +145,18 @@ NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+- Credits to the tutor support and slack community for supporting me with bug fixes and 
+  resolving errors in the code.
+
+- The bug and errors in the code were resolved by checking with the Youtube tutorial from:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+- The other resources to sort the bugs were:
+
+- [Stack overflow](https://stackoverflow.com/questions/52809455/nested-loops-in-python)
+
+- [Geeks for Geeks](https://www.geeksforgeeks.org/loops-in-python/)
 
 
 
