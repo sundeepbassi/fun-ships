@@ -1,23 +1,23 @@
 # Fun-Ships
 
-- Fun-Ships is battleship game designed on the original board game  
+- Fun-Ships is a noughts and crosses game (tik tak toe in American) designed on the original paper played game.
 
-- For more information about battleships check out [Wikipedia](https://en.wikipedia.org/wiki/Battleship_(game)])
+- For more information about noughts and crosses check out [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)])
 
 - Funships is coded in python and the code is outputted in the terminal the game is also deployed to Heroku.
 
-- The game is designed to be played by a single person.
+- The game is designed to be played by a single person against the computer.
 
 
 ## How To Play
 
-- The player has to input a number from 1 to 8.
+- The player has to input a number from 1 to 9.
 
-- Then the player has to input a letter between A and H.
+- Then the player is prompted to enter another number.
 
-- X on the board is for placing and getting a ship.
+- X represents the players symbol on the grid.
 
-- "-" is a missed shot.
+- O represents the computer symbol on the grid.
 
 
 
@@ -28,11 +28,11 @@
 
 - There ia a grid board for the player to play the game.
 
-- The player is given an option to input a number value for the rows.
+- The player is greeted with a welcome.
 
-- The player is given an option to input a letter value for the columns.
+- The player is given an option to input a number value for the grid board from 1 - 9.
 
-- The player has a chance to try and get 5 ships.
+- The player is prompted again to input a numnber and this continue until either the player or computer wins or draws.
 
 ### Future Features
 
@@ -42,7 +42,8 @@
 
 ###  Data Model
  
-The model that I am using for this project is based on a grid board functions.
+The model that I am using for this project is based on a grid board function.
+
 In the game there are.
 
 The grid board class contains both the players and the computers boards.
@@ -178,11 +179,11 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-- The code for the computer_turn function is accredited to:
+- The code for the run the game function is accredited to:
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
-- The code for the computer_turn function is accredited to:
+- The code for the start the game function is accredited to:
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
