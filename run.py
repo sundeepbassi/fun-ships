@@ -109,7 +109,7 @@ def computer_turn():
             continue
         
         # If computer plays first corners, middle, and edges
-        possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]
+        possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]  # noqa: E501
         corners = [1, 3, 7, 9]
         edges = [2, 4, 6, 8]
         for i in corners:
