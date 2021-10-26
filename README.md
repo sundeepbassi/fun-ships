@@ -170,6 +170,22 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
 
+- The code for the computer_turn function is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+- The code for the computer_turn function is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+- The code for the computer_turn function is accredited to:
+
+- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
+
+
+
 
 
 

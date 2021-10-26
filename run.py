@@ -1,5 +1,9 @@
 import random
 
+# The code below is accredited to - 
+# Knowledge Mavens (https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+
+
 playerLetter = 'X'
 computerLetter = 'O'
 
