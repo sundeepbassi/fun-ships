@@ -2,13 +2,13 @@
 
 - Fun-Ships is a noughts and crosses game (tik tak toe in American) designed on the original paper played game.
 
-- For more information about noughts and crosses check out [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)])
+- For more information about noughts and crosses check out [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)
 
 - Funships is coded in python and the code is outputted in the terminal the game is also deployed to Heroku.
 
 - The game is designed to be played by a single person against the computer.
 
-- The objective of the game is for the player to place an  3 X's on the grid board in a line to win.
+- The objective of the game is for the player to place  3 X's on the grid board in a line to win.
 
 
 ## How To Play
@@ -44,31 +44,28 @@
 
 - Allow player to have the opportunity to play against someone else.
 
-- Allow player to have more chances to attack the ships.
 
 ###  Data Model
  
 The model that I am using for this project is based on a grid board function.
 
-In the game there are.
+The grid board function contains both the players turn and the computers turn.
 
-The grid board class contains both the players and the computers boards.
+The grid board functions are, define the board, who goes first, print the board, is the board full, check if there is a winner,
+is a space free, place a marker on the board, who goes first, player turn, create a copy of the board, computer turn, check if player can win, if computer plays first, and run the game.
 
-Explain the xs and the - 
 
-The grid board class contains the letters for the rows, the numbers for the columns, the amount of times to hit a ship.
 
-The grid class board enables the  inputting of information for the ships and the output from the computer.
 
-NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 
 ###  Testing
 
 - I did manual testing on the project by:
 
-- Putting the code into the Pep8 validator testing check.  The code was passed without any significant problems and errors.
+- Putting the code into the Pep8 linter validator testing check.  The code was passed without any problems and errors.
 
-- I also did tests on the inputs to see what would happen if incorrect data was inputted.
+- I also did tests on the inputs to see what would happen if I inputted a number above 9. The function workS because 
+  the player is prompted to input a number between 1 and 9.
 
 - The code was also tested on the local terminal and in Heroku. 
 
@@ -77,7 +74,7 @@ NEED TO UPDATE THIS ONCE THE COMPUTER GRID BOARD IS ALSO PLACED IN THE GAME.
 ###  Bugs
 
 - There were bugs in the code that inhibited it from running properly.  I had to contact tutor support and reach out
-to the slack community for support.
+to the slack community for support. The bugs were related to the nesting of the code in the loops.
 
 The bugs were removed and it was the tutorial from Knowledge Mavens that helped remove the bugs.
 
@@ -281,9 +278,21 @@ Battleships game readme.
 ### Disclaimer
 
 - The contents of this project are solely for the purposes of education and research.  
-- All of  the information and code that has been used from outside resources has be accredited to that person or resource.
+- All of  the information and code that has been used from outside resources has be accredited to that person or organisation.
 
-## Acknowledgements 
+### Acknowledgements
+
+I would like to thank my mentor Miguel Martinez for being an excellent mentor anf guiding me with the project.  Miguel's insights, experince and knowledge have empowered me to try to do my best and not to give up.
+
+I would like to thank Scott and Ed from the tutor support team to find good solutions whislt working with my code.
+
+I would like to thank the whole of the tutor support for helping me with coding issues.
+
+I would like to thank the student care team, Alex, Kieron and Aoife for listening to me and pointing me in the right direction.
+
+I would like to thank my friends Claire and Holly for believing in me and checking on me when I was stressed with the course work and the project.
+
+I would like thank Claire's pets, Bodhi (dog), Lass (dog), Mitzy (dog), Kiddy (cat) and Rabsie (rabbit), for sitting with me whilst I was doing my work and the endless support they gave me.  The dog walks helped me to get fresh air into my brain cells.
 
 
 

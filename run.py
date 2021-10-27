@@ -125,7 +125,7 @@ def computer_turn():
 
 # run the game
 def main():
-    print('Welcome to Tic Tac Toe!') 
+    print('Welcome to Noughts and Crosses! (Tic Tac Toe!)') 
     turn = who_goes_first()
     print(f'Chosen to go first: {turn}')
     while True:
