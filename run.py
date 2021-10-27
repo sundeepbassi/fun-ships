@@ -116,11 +116,12 @@ def computer_turn():
         for i in corners:
             if i in possibleMoves:
                 return place_marker(board, computerLetter, i)
-        if is_free(board, 5):
-            return place_marker(board, computerLetter, 5)
+            if is_free(board, 5):
+                return place_marker(board, computerLetter, 5)
         for i in edges:
             if i in possibleMoves:
                 return place_marker(board, computerLetter, i)
+                             
 
 
 # run the game
