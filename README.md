@@ -118,42 +118,47 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - The code for adding playerLetter and the computerLetter with values is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+
 
 - The code for define the board is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+
 
 - The code for the print_board function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the is_full function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+
 
 - The code for the check_win function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+
 
 - The code for the is_free function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+
 
 - The code for the place_marker function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the who_goes_first function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - Credits to the tutor support and slack community for supporting me with bug fixes and 
   resolving errors in the code.
 
 - The bug and errors in the code were resolved by checking with the Youtube tutorial from:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The other resources to sort the bugs were:
 
@@ -192,7 +197,12 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 - To add the # noqa: E501 at the end of line 112 is accredited to the tutors at the Code Institute 
   for helping me to rectify this warning in pep 8 online validation checker.
 
+- To remove the white trailing spaces from the code is accredited to fellow students on Slack and 
+  the tutor support team.
 
+- In my mentoring session my mentor highlighted the need to check my code thoroughly for bugs and errors.
+
+- 
 
 
 
