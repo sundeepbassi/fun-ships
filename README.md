@@ -59,6 +59,23 @@
 - The player is prompted again to input a numnber and this will continue until either the player or computer wins, 
   loses or there is a draw.
 
+  - If both sides score a draw the player will be notified as shown in the draw screenshot below.
+
+  - [Start The Game](assets/screenshots/draw.png)
+
+  - If the player loses the game this will be displayed in the terminal as seen in the screenshot below.
+
+  - [Player has lost the game](assets/screenshots/lost.png)
+
+  - If the player inputs letters, symbols or an empty return the following error will be displayed by the computer.
+
+  - [Error Message For Incorrect Inputs](assets/screenshots/error.png)
+
+
+
+
+
+
 ### Future Features
 
 - Allow player to have the opportunity to play against someone else.
