@@ -1,8 +1,4 @@
 
-[](assets/screenshots/startgames.png)
-
-
-
 # Fun-Ships
 
 - Fun-Ships is a noughts and crosses game (tik tak toe in American) designed on the original paper played game.
@@ -34,9 +30,11 @@
 
 ## Features
 
-- The screenshot below shows the start of the game.
+- The screenshot below shows the game in various screens.
 
-- [Start The Game](assets/screenshots/startgames.png)
+
+
+- 
 
 - The screenshot below displays the response when the player inputs the wrong number
 
@@ -44,13 +42,22 @@
 
 ### Existing Features
 
+- The screenshot below is the game displayed on various screens.
+
+- [Game On Various Screens](assets/screenshots/multiscreen.png)
+
 - There ia a grid board for the player to play the game.
 
 - The player is greeted with a welcome.
 
 - The player is given an option to input a number value for the grid board from 1 - 9.
 
-- The player is prompted again to input a numnber and this will continue until either the player or computer wins or draws.
+- The screenshot below shows the start of the game.
+
+- [Start The Game](assets/screenshots/startgames.png)
+
+- The player is prompted again to input a numnber and this will continue until either the player or computer wins, 
+  loses or there is a draw.
 
 ### Future Features
 
@@ -212,9 +219,23 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 - To remove the white trailing spaces from the code is accredited to fellow students on Slack and 
   the tutor support team.
 
-- In my mentoring session my mentor highlighted the need to check my code thoroughly for bugs and errors.
+- In my mentoring session my mentor highlighted the need to check my code thoroughly for bugs and errors.  My mentor has really
+  empowered me to find solutions with debugging the code, thinking about what the code is doing and keeping focused with the 
+  project. My mentor is an excellent support for helping me to code better.
 
-- 
+- I was informed by tutor support to use print() under lines of code to try to identify errors and bugs in why the code
+  is not working.
+
+- Tutor support also advised me to use the collapable arrows on the side of the code line so as to check if specific sections of 
+  a loop are aligned correctly.
+
+- Fellow students on slack showed me how to use the debugger in the python file and how to try to find bugs in the code.
+
+- One thing that I really learnt with python is the importance of indentation in the code and how incorrect indentation can make 
+  the code inoperative.
+
+- A very good resource for helping with code structurtes with python.
+  [tutorialspoint](https://www.tutorialspoint.com/python/python_continue_statement.htm)
 
 
 
