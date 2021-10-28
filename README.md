@@ -93,6 +93,9 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 - pep8
        - No errors were returned from pep8online.com.
 
+       - [Pep 8 online passed](assets/screenshots/peppass.png)
+
+
 
 ###  Deployment
 - The project was deployed using the code Instiutes mock terminal for Heroku.
