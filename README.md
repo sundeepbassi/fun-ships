@@ -114,7 +114,7 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - The code for adding the import random is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for adding playerLetter and the computerLetter with values is accredited to:
 
