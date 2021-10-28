@@ -26,19 +26,11 @@
 
 - The Computer will try to block the player.
 
-
+- The player and the computer can start the game.
 
 ## Features
 
-- The screenshot below shows the game in various screens.
 
-
-
-- 
-
-- The screenshot below displays the response when the player inputs the wrong number
-
-- [Wrong Number](assets/screenshots/wrongnum.png)
 
 ### Existing Features
 
@@ -59,21 +51,21 @@
 - The player is prompted again to input a numnber and this will continue until either the player or computer wins, 
   loses or there is a draw.
 
-  - If both sides score a draw the player will be notified as shown in the draw screenshot below.
+- If both sides score a draw the player will be notified as shown in the draw screenshot below.
 
-  - [Start The Game](assets/screenshots/draw.png)
+- [There is a draw](assets/screenshots/draw.png)
 
-  - If the player loses the game this will be displayed in the terminal as seen in the screenshot below.
+- If the player loses the game this will be displayed in the terminal as seen in the screenshot below.
 
-  - [Player has lost the game](assets/screenshots/lost.png)
+- [Player has lost the game](assets/screenshots/lost.png)
 
-  - If the player inputs letters, symbols or an empty return the following error will be displayed by the computer.
+- If the player inputs letters, symbols or an empty return the following message will be displayed by the computer.
 
-  - [Error Message For Incorrect Inputs](assets/screenshots/error.png)
+- [Message For Incorrect Inputs](assets/screenshots/inputreq.png)
 
+- The screenshot below displays the response when the player inputs the wrong number
 
-
-
+- [Wrong Number](assets/screenshots/wrongnum.png)
 
 
 ### Future Features
@@ -98,8 +90,10 @@ There is a choice to put in a number between 1 to 9.
 
 - Putting the code into the Pep8 linter validator testing check.  The code was passed without any problems and errors.
 
-- I also did tests on the inputs to see what would happen if I inputted a number above 9. The function workS because 
+- I also did tests on the inputs to see what would happen if I inputted a number above 9. The function works because 
   the player is prompted to input a number between 1 and 9.
+
+  I did a test with my mentor to see what would happen if I inputted a letter, a symbol and an empty space.  A bug was removed. The output for this test was working and informed the player to select the correct input required to play the game (numbers between 1-9)
 
 - The code was also tested on the local terminal and in Heroku. 
 
@@ -107,10 +101,9 @@ There is a choice to put in a number between 1 to 9.
 
 ###  Bugs
 
-- There were bugs in the code that inhibited it from running properly.  I had to contact tutor support and reach out
-to the slack community for support. The bugs were related to the nesting of the code in the loops.
+- There were bugs in the code that inhibited it from running properly.  I had to contact tutor support and reach out to the slack community for support. The bugs were related to the nesting of the code in the loops.
 
-The bugs were removed and it was the tutorial from Knowledge Mavens that helped remove the bugs.
+The bugs were removed and it was the tutorial from Knowledge Mavens that helped to do checks.
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
@@ -119,7 +112,7 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 ###  Remaining Bugs
 
-
+No remaining bugs
 
 ###  Validator Testing
 
@@ -139,6 +132,8 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
       - Set the build blocks to Python and Nodejs in that order 
       - Link the Heroku app to the repository
       - Click on **Deploy**
+      
+      - https://fun-ships.herokuapp.com/
 
 ###  Credits
 
@@ -238,7 +233,10 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - In my mentoring session my mentor highlighted the need to check my code thoroughly for bugs and errors.  My mentor has really
   empowered me to find solutions with debugging the code, thinking about what the code is doing and keeping focused with the 
-  project. My mentor is an excellent support for helping me to code better.
+  project. My mentor is an excellent support for me in helping me to code better.
+
+- My mentor also identified a bug on line 62 onwards and he empowered me to try and find a solution into how this could rectified.
+  we had to look at using the Whilst true, Try, Break and Except code to get the bug and error removed.
 
 - I was informed by tutor support to use print() under lines of code to try to identify errors and bugs in why the code
   is not working.

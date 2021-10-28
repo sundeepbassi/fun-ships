@@ -1,7 +1,7 @@
 import random
 
 # The code for this file is accredited to:
-# Knowledge Mavens2(https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+# Knowledge Mavens2(https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.  # noqa: E501
 
 # These variables show the symbols for the player and computer
 
