@@ -169,31 +169,31 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - The code for the player_turn function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the duplicate _board function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the computer_turn function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the check if the player can win function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the if computer plays first function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the run the game function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - The code for the start the game function is accredited to:
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 - To add the # noqa: E501 at the end of line 112 is accredited to the tutors at the Code Institute 
   for helping me to rectify this warning in pep 8 online validation checker.
@@ -293,6 +293,8 @@ Battleships game readme.
 ### Acknowledgements
 
 I would like to thank my mentor Miguel Martinez for being an excellent mentor anf guiding me with the project.  Miguel's insights, experince and knowledge have empowered me to try to do my best and not to give up.
+
+I would like to thank fellow students from slack and Matt Bodden the 5p lead in encouraging me to do my best.
 
 I would like to thank Scott and Ed from the tutor support team to find good solutions whislt working with my code.
 

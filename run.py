@@ -1,13 +1,18 @@
 import random
 
+# The code for this file is accredited to:
+# Knowledge Mavens(https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+
+# These variables show the symbols for the player and computer
+
 playerLetter = 'X'
 computerLetter = 'O'
 
-# define the board
+# This function will define the board
 board = [' ' for i in range(10)]
 
 
-# print the board
+# This function will add a print of the grid board
 def print_board():
     print('#########################')
     print(board[1] + '|' + board[2] + '|' + board[3])
@@ -17,7 +22,7 @@ def print_board():
     print(board[7] + '|' + board[8] + '|' + board[9])
 
 
-# is the board full
+# This function will check if the  board is full
 def is_full():
     return ' ' not in board[1:10]
 
@@ -35,12 +40,12 @@ def check_win(board, letter):
          (board[1] == board[2] == board[3] == letter)
 
 
-# is a space free
+# This function will check for a free space
 def is_free(board, position):
     return board[position] == ' '
 
 
-# place the marker on the board
+# This function will place the marker on the board
 def place_marker(board, mark, position):
     board[position] = mark
 
