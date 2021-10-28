@@ -77,7 +77,7 @@ to the slack community for support. The bugs were related to the nesting of the 
 
 The bugs were removed and it was the tutorial from Knowledge Mavens that helped remove the bugs.
 
-- [Knowledge Mavens](https://www.youtube.com/watch?v=tF1WRCrd_HQ&t=66s) Youtube Tutorial.
+- [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 
 
