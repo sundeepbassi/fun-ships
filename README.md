@@ -31,6 +31,8 @@
 
 [screenshot 1](assets/screenshots/tak-1.png)
 
+[This is output when player inputs wrong number](assets/screenshots/wrongnum.png)
+
 ### Existing Features
 
 - There ia a grid board for the player to play the game.
