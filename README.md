@@ -29,6 +29,7 @@
 
 ## Features
 
+[screenshot 1](assets/screenshots/tak-1.png)
 
 ### Existing Features
 
@@ -38,7 +39,7 @@
 
 - The player is given an option to input a number value for the grid board from 1 - 9.
 
-- The player is prompted again to input a numnber and this continue until either the player or computer wins or draws.
+- The player is prompted again to input a numnber and this will continue until either the player or computer wins or draws.
 
 ### Future Features
 
@@ -54,9 +55,7 @@ The grid board function contains both the players turn and the computers turn.
 The grid board functions are, define the board, who goes first, print the board, is the board full, check if there is a winner,
 is a space free, place a marker on the board, who goes first, player turn, create a copy of the board, computer turn, check if player can win, if computer plays first, and run the game.
 
-
-
-
+There is a choice to put in a number between 1 to 9.
 
 ###  Testing
 
