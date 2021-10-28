@@ -1,3 +1,8 @@
+
+[](assets/screenshots/startgames.png)
+
+
+
 # Fun-Ships
 
 - Fun-Ships is a noughts and crosses game (tik tak toe in American) designed on the original paper played game.
@@ -29,9 +34,13 @@
 
 ## Features
 
-[screenshot 1](assets/screenshots/tak-1.png)
+- The screenshot below shows the start of the game.
 
-[This is output when player inputs wrong number](assets/screenshots/wrongnum.png)
+- [Start The Game](assets/screenshots/startgames.png)
+
+- The screenshot below displays the response when the player inputs the wrong number
+
+- [Wrong Number](assets/screenshots/wrongnum.png)
 
 ### Existing Features
 
