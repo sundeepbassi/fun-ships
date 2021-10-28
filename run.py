@@ -60,7 +60,12 @@ def who_goes_first():
 
 # player turn
 def player_turn():
-    position = int(input('Choose a number between 1 & 9: '))
+    while True:
+        try:
+            position = int(input('Choose a number between 1 & 9: '))
+            break
+        except ValueError:
+            print("not a valid input")
     try:
         if is_free(board, position):
             place_marker(board, playerLetter, position)
