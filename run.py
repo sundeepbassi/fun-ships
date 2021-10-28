@@ -1,7 +1,7 @@
 import random
 
 # The code for this file is accredited to:
-# Knowledge Mavens(https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
+# Knowledge Mavens2(https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
 # These variables show the symbols for the player and computer
 
@@ -60,16 +60,16 @@ def who_goes_first():
 
 # player turn
 def player_turn():
-    position = int(input('Choose a position: '))
+    position = int(input('Choose a number between 1 & 9: '))
     try:
         if is_free(board, position):
             place_marker(board, playerLetter, position)
         else:
-            print('This position is not free')
+            print('This position is not free, please try again')
             player_turn()
     except:
         if position < 1 or position > 9:
-            print('Please choose a number between 1 and 9')
+            print('Please choose a number between 1 and 9, have another go')
             player_turn()
 
 
@@ -118,7 +118,7 @@ def computer_turn():
 
 # run the game
 def main():
-    print('Welcome to Tic Tac Toe!')
+    print('Welcome to Noughts & Crosses (Tic Tac Toe!)')
     turn = who_goes_first()
     while True:
         if turn == playerLetter:
