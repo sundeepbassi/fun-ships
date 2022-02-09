@@ -107,6 +107,8 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
+- Through the assessors feedback of the project it was noted in the assessment that in criteria 2.1 had failed as the allowance of invalid data entry causes the function to go wrong.  Through the support of my mentor and the tutor support we managed to locate the specific issue of why the game was allowing 0 to be accepted as an input.  This was rectified with the code being made more specific to what input was allowed to be run. 
+
 
 
 
