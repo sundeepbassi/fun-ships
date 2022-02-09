@@ -62,22 +62,19 @@ def who_goes_first():
 def player_turn():
     while True:
         try:
-            position = int(input('Choose a number between 1 & 9: '))
-            break
+            position = int(input('Choose a number between 1 & 9: ')) 
+            if position > 1 and position < 9:
+                print('Please choose a number between 1 and 9, have another go')
+            player_turn()
         except ValueError:
-            print("not a valid input")
-    try:
-        if is_free(board, position):
-            place_marker(board, playerLetter, position)
-        else:
-            print('This position is not free, please try again')
-            player_turn()
-    except:
-        if position < 1 or position > 9:
-            print('Please choose a number between 1 and 9, have another go')
-            player_turn()
-
-
+            print("not a valid input")        
+            if is_free(board, position):
+                place_marker(board, playerLetter, position)
+            else:
+                print('This position is not free, please try again')
+        player_turn()
+    
+    
 # create a copy of the board
 def duplicate_board(board):
     duplicate_board = []
