@@ -59,7 +59,6 @@ def who_goes_first():
 
 
 # player turn
-# player turn
 def player_turn():
     while True:
         try:
