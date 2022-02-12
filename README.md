@@ -121,7 +121,7 @@ I also had to put import re at the top.  The tutors at the Code Institute helped
 - The code that was inputting the incorrect data entry value was located in player turn.  
 The code was rectified and the code now works and invalid data entry is not permitted. My mentor Miguel Martinez and the tutors at code institute helped me with this.  I am very grateful to them for their kind support.
 
-player turn
+### player turn
 def player_turn():
     """ player turn docstring """
     while True:
