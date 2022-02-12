@@ -159,11 +159,12 @@ No remaining bugs
 - pep8
        - No errors were returned from pep8online.com.
 
-- ![Pep 8 online passed screenshot](assets/screenshots/peppass.png)
+ - The screenshot below is the most updated Pep 8 online check done taken on the 12 of February 2022 for 
+ - the resubmission of this project.
+ 
+ ![Pep 8 online updated passed screenshot taken on the 12 February 2022](assets/screenshots/pep8updated.png)
 
-- ![Pep 8 online updated passed screenshot taken on the 12 February 2022](assets/screenshots/pep8updated.png)
-
-
+ ![Pep 8 online passed screenshot](assets/screenshots/peppass.png)
 
 
 ###  Deployment
