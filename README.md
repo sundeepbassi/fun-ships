@@ -107,14 +107,41 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 
 - [Knowledge Mavens](https://www.youtube.com/watch?v=oe0kIt3kE2g&t=3s) Youtube Tutorial.
 
-- Through the assessors feedback of the project it was noted in the assessment that in criteria 2.1 had failed as the allowance of invalid data entry causes the function to go wrong.  Through the support of my mentor and the tutor support we managed to locate the specific issue of why the game was allowing 0 to be accepted as an input.  This was rectified with the code being made more specific to what input was allowed to be run. 
+- Through the assessors kind feedback of the project it was noted in the assessment that in criteria 2.1 had failed as the allowance of invalid data entry causes the function to go wrong.  Through the support of my mentor and the tutor support we managed to locate the specific issue of why the game was allowing 0 to be accepted as an input.  This was rectified with the code being made more specific to what input was allowed to be run. 
 
 The assessor also kindly noted in the feedback that " The input range of the game is 1-9, however, the program takes 0 as input and proceeds. Moreover, when the user gives input of -1 the program does not raise error, accepts the user input." 
 
 Through the kind support of the tutors I was able to rectify the above issue by adding the code below to ensure that only the specified integers could be accepted from 1-9.  The game will not accept 0 as an input now. The -1 problem was resolved I also checked with +1 and this was not accepted.  
 
-The code that i used to rectify this is re.match(r'^\d+$', str(position)):
+The code that I used to rectify this is re.match(r'^\d+$', str(position)):
 I also had to put import re at the top.  The tutors at the Code Institute helped me with this.
+
+The code that was inputting the incorrect data entry value was located in player turn.  
+The code was rectified and the code now works and invalid data entry is not permitted. My mentor Miguel Martinez and the tutors at code institute helped me with this.  I am very grateful to them for their kind support.
+
+# player turn
+def player_turn():
+    """ player turn docstring """
+    while True:
+        try:
+            position = input('Choose a number between 1 & 9: ')
+            if re.match(r'^\d+$', str(position)):
+                position = int(position)
+            else:
+                print('Please choose a number between 1 and 9, have another go')  # noqa: E501
+                continue
+            if position < 1 or position > 9:
+                print('Please choose a number between 1 and 9, have another go')  # noqa: E501
+            else:
+                if is_free(board, position):
+                    place_marker(board, playerLetter, position)
+                    break
+                else:
+                    print('This position is not free, please try again')
+        except ValueError:
+            print("not a valid input")
+
+
 
 
 
