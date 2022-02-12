@@ -154,7 +154,6 @@ No remaining bugs
 
 ###  Validator Testing
 
-- Removed errors from code after checking in pep8 mainly indentation errors were removed. 24/10/21.
 
 - pep8
        - No errors were returned from pep8online.com.
@@ -163,6 +162,10 @@ No remaining bugs
  - the resubmission of this project.
  
  ![Pep 8 online updated passed screenshot taken on the 12 February 2022](assets/screenshots/pep8updated.png)
+
+- The screenshot below is the one that was submitted on the first submission of this project in October 2021.
+
+- Removed errors from code after checking in pep8 mainly indentation errors were removed. 24/10/21.
 
  ![Pep 8 online passed screenshot](assets/screenshots/peppass.png)
 
