@@ -161,7 +161,7 @@ No remaining bugs
 
 - [Pep 8 online passed screenshot](assets/screenshots/peppass.png)
 
-- [Pep 8 online updated passed screenshot taken on the 12 February 2022](assets/screenshots/pep8updated.png)
+- ![Pep 8 online updated passed screenshot taken on the 12 February 2022](assets/screenshots/pep8updated.png)
 
 
 
