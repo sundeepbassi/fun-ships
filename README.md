@@ -111,17 +111,17 @@ The bugs were removed and it was the tutorial from Knowledge Mavens that helped 
 ### Bugs and Invalid Data Rectified From Submission of First Project
 - Through the assessors kind feedback of the project it was noted in the assessment that in criteria 2.1 had failed as the allowance of invalid data entry causes the function to go wrong.  Through the support of my mentor and the tutor support we managed to locate the specific issue of why the game was allowing 0 to be accepted as an input.  This was rectified with the code being made more specific to what input was allowed to be run. 
 
-The assessor also kindly noted in the feedback that " The input range of the game is 1-9, however, the program takes 0 as input and proceeds. Moreover, when the user gives input of -1 the program does not raise error, accepts the user input." 
+- The assessor also kindly noted in the feedback that " The input range of the game is 1-9, however, the program takes 0 as input and proceeds. Moreover, when the user gives input of -1 the program does not raise error, accepts the user input." 
 
-Through the kind support of the tutors I was able to rectify the above issue by adding the code below to ensure that only the specified integers could be accepted from 1-9.  The game will not accept 0 as an input now. The -1 problem was resolved I also checked with +1 and this was not accepted.  
+- Through the kind support of the tutors I was able to rectify the above issue by adding the code below to ensure that only the specified integers could be accepted from 1-9.  The game will not accept 0 as an input now. The -1 problem was resolved I also checked with +1 and this was not accepted.  
 
-The code that I used to rectify this is re.match(r'^\d+$', str(position)):
+- The code that I used to rectify this is re.match(r'^\d+$', str(position)):
 I also had to put import re at the top.  The tutors at the Code Institute helped me with this.
 
-The code that was inputting the incorrect data entry value was located in player turn.  
+- The code that was inputting the incorrect data entry value was located in player turn.  
 The code was rectified and the code now works and invalid data entry is not permitted. My mentor Miguel Martinez and the tutors at code institute helped me with this.  I am very grateful to them for their kind support.
 
-# player turn
+player turn
 def player_turn():
     """ player turn docstring """
     while True:
