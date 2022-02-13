@@ -144,6 +144,13 @@ def player_turn():
             print("not a valid input")
 
 
+### 2.1	Write code that handles empty or invalid input data. 
+
+- The code has that was causing the input of invalid data has now been rectified.
+
+- The screenshot below was taken on the 13th of February and it shows that the input data has been checked.
+
+ ![Screenshot of checking data input](assets/screenshots/datacheck.png)
 
 
 
