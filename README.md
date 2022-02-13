@@ -121,32 +121,15 @@ I also had to put import re at the top.  The tutors at the Code Institute helped
 - The code that was inputting the incorrect data entry value was located in player turn.  
 The code was rectified and the code now works and invalid data entry is not permitted. My mentor Miguel Martinez and the tutors at code institute helped me with this.  I am very grateful to them for their kind support.
 
-### player turn
-def player_turn():
-    """ player turn docstring """
-    while True:
-        try:
-            position = input('Choose a number between 1 & 9: ')
-            if re.match(r'^\d+$', str(position)):
-                position = int(position)
-            else:
-                print('Please choose a number between 1 and 9, have another go')  # noqa: E501
-                continue
-            if position < 1 or position > 9:
-                print('Please choose a number between 1 and 9, have another go')  # noqa: E501
-            else:
-                if is_free(board, position):
-                    place_marker(board, playerLetter, position)
-                    break
-                else:
-                    print('This position is not free, please try again')
-        except ValueError:
-            print("not a valid input")
-
 
 ### 2.1	Write code that handles empty or invalid input data. 
 
 - The code has that was causing the input of invalid data has now been rectified.
+
+- The screenshot below was taken on the 13th of February 2002 and it shows the code that was rectified to stop the invalid input of data.  My mentor and the tutors supported me into checking the code thoroughly and to input the correct code to ensure that invalid data could not be inputed into the game by the user.
+
+ ![Screenshot of checking data input](assets/screenshots/playerturn.png)
+
 
 - The screenshot below was taken on the 13th of February 2002 and it shows that the input data has been checked.
 
