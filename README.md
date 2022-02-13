@@ -148,9 +148,14 @@ def player_turn():
 
 - The code has that was causing the input of invalid data has now been rectified.
 
-- The screenshot below was taken on the 13th of February and it shows that the input data has been checked.
+- The screenshot below was taken on the 13th of February 2002 and it shows that the input data has been checked.
 
  ![Screenshot of checking data input](assets/screenshots/datacheck.png)
+ 
+
+ - The screenshot below was taken on the 13th of February 2002 and it shows input data for symbols on a keyboard and empty spaces were rejected as invalid data.
+
+  ![Screenshot of checking data input](assets/screenshots/seconddatacheck.png)
 
 
 
