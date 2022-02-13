@@ -128,7 +128,7 @@ The code was rectified and the code now works and invalid data entry is not perm
 
 - The screenshot below was taken on the 13th of February 2002 and it shows the code that was rectified to stop the invalid input of data.  My mentor and the tutors supported me into checking the code thoroughly and to input the correct code to ensure that invalid data could not be inputed into the game by the user.
 
- ![Screenshot of checking data input](assets/screenshots/playerturn.png)
+ ![Screenshot of code rectified for player turn](assets/screenshots/playerturn.png)
 
 
 - The screenshot below was taken on the 13th of February 2002 and it shows that the input data has been checked.
