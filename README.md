@@ -183,7 +183,8 @@ No remaining bugs
 
       - The screenshot below is the Heroku App stating the deployment is successful.
 
-       ![Screenshot of deployment successful on Heroku](assets/screenshots/depsuccess.png)
+      ![Screenshot of the deployed site on Heroku](assets/screenshots/depsucces.png)
+
 
       - The screenshot below is the deployed site on the Heroku App.
 
