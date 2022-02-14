@@ -1,6 +1,10 @@
 
 # Notes for resubmission of this project
 
+- I would like to say the support and encouragement from my mentor Miguel Martinez has been exceptionally outstanding. Miguel has never given up on me and I feel his support got me through a lot of stress and anxiety when I was doing this project.  I am forever touched with Miguels kindness and empathy and he has taught me the true meaning of dedication and commitment.  Miguel is a brilliant mentor and a great teacher.
+
+- I would also like to say thank you to all of the tutor support team for spending time with me to try and get the correct code to work.  There were times when I did not understand and the tutors were patient with me and helped me to work through the issues.
+
 - This project is being resubmitted as it only failed on one point in the criteria.
 
 - The point it failed on is 2.1	Write code that handles empty or invalid input data.
@@ -16,9 +20,6 @@
     - 2.1	Write code that handles empty or invalid input data. 
 
 - I have also done an updated pep8 online check that passed without any faults and this can be found in the validator testing section of this readme. As I had submitted new code I wanted to ensure that it was checked properly by pep8 online checker.
-
-
-
 
 ## Fun-Ships
 
@@ -145,7 +146,7 @@ The code was rectified and the code now works and invalid data entry is not perm
 
 ### 2.1	Write code that handles empty or invalid input data. 
 
-- The code has that was causing the input of invalid data has now been rectified.
+- The code that was causing the input of invalid data has now been rectified.
 
 - The screenshot below was taken on the 13th of February 2002 and it shows the code that was rectified to stop the invalid input of data.  My mentor and the tutors supported me into checking the code thoroughly and to input the correct code to ensure that invalid data could not be inputed into the game by the user.
 
@@ -161,7 +162,9 @@ The code was rectified and the code now works and invalid data entry is not perm
 
   ![Screenshot of checking data input](assets/screenshots/seconddatacheck.png)
 
+ - The screenshot below was taken on the 13th of February 2002 and it shows what happens when a player inputs a number that has already been inputted, it states this position is not free, please try again.
 
+   ![Screenshot of checking data input](assets/screenshots/notfree.png)
 
 
 ###  Remaining Bugs
