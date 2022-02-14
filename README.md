@@ -1,5 +1,26 @@
 
-# Fun-Ships
+# Notes for resubmission of this project
+
+- This project is being resubmitted as it only failed on one point in the criteria.
+
+- The point it failed on is 2.1	Write code that handles empty or invalid input data.
+
+- The above has now been rectified with the support of my mentor and the tutors.
+
+- I have added two extra sections that explain how the code was rectified and where the problem needed to be rectified. I am grateful to the assessors for pointing out in the report that the data to be entered was to be between 1-9 and that 0 and -1 had been inputted and accepted by the code.  This problem has now been rectified and thoroughly tested and no invalid data is being processed.
+
+- The two sections added to the readme are:
+
+    - Bugs and Invalid Data Rectified From Submission of First Project
+
+    - 2.1	Write code that handles empty or invalid input data. 
+
+- I have also done an updated pep8 online check that passed without any faults and this can be found in the validator testing section of this readme. As I had submitted new code I wanted to ensure that it was checked properly by pep8 online checker.
+
+
+
+
+## Fun-Ships
 
 - Fun-Ships is a noughts and crosses game (tik tak toe in American) designed on the original paper played game.
 
@@ -183,7 +204,7 @@ No remaining bugs
 
       - The screenshot below is the Heroku App stating the deployment is successful.
 
-      ![Screenshot of the deployed site on Heroku](assets/screenshots/depsucces.png)
+      ![Screenshot of deployment successful on Heroku](assets/screenshots/depsucces.png)
 
 
       - The screenshot below is the deployed site on the Heroku App.
