@@ -177,6 +177,27 @@ No remaining bugs
       
       - https://fun-ships.herokuapp.com/
 
+      - As I had to resubmit this project, I redeployed the project on the 13th of February 2022.
+
+      - I did  manual deployment using the deploy branch button on Heroku. I also cheecked with the tutors to see if I needed to do anything else as I had done my first deployment in October and the tutors informed me as long as the code was working in the Heroku terminal then everything would be good.
+
+      - The screenshot below is the Heroku App stating the deployment is successful.
+
+       ![Screenshot of deployment successful on Heroku](assets/screenshots/depsuccess.png)
+
+      - The screenshot below is the deployed site on the Heroku App.
+
+       ![Screenshot of the deployed site on Heroku](assets/screenshots/deployed.png)
+
+
+
+
+
+
+      
+
+
+
 ###  Credits
 
 - Data modelling information from Database Design 2nd Edition
