@@ -1,6 +1,86 @@
 
 # Notes for resubmission of this project
 
+I was informed by student care and the webinair that I watched from Jo C that the projects needed to be live for a certificate to be awarded.  I had to contact the tutors as the project was not being deployed to Heroku.  The tutors helped me to set it back up to live again on Heroku.
+
+
+
+
+Sean profile
+Sean
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 44
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 3
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi tutors, I was informed by student care and the webinair I watched on migrating databases to elephant sql by jo c that we have to have our projects live for them to get a certificates. Gemma and Sean have been very kind in getting my project 5 and project 4 back up live on heroku however I am trying to get my project 3 to be live and tried the steps that sean kindly showed me yesterday but I am not sure how to link up the project 3 to heroku as this was the python project.
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+I tried to follow the instructions from yesterday to restart the database
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbassi-funships-jjvxjgda03o.ws-eu86.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+
+Sean profile
+Hi Sunny, pp3 does not have a database, so there is nothing new to do with that one, is it not working for you at the moment?
+Hi Sean good to hear from you when I try to open the app it does not work on Heroku
+
+Sean profile
+ok, then we likely have to scale the application again
+ok Sean how would I do that ?
+in the second terminal, please login to heroku
+Sean profile
+Remember that you need the api key instead of the password
+it is giving an error shall I use the API code from yestrday that I usedto login
+Sean profile
+yes please
+Thanks I will give it a go
+Thanks Sean that worked
+ok, its working again
+
+So, you needed to restart the dyno with the command
+heroku ps:scale web=1 --app  <app_name>
+Sean profile
+ok, seems to be running fine now, Enjoy your day and happy coding :)
+1:52 pm
+Thans Sean you are a star tutor always good to chat with you and thank you, do I need to add the code above ?
+no, its all done
+Sean profile
+Im jsut telling you for future cases :)
+Brilliant Sean have a great day
+Sean profile
+👍
+Thank you this is very helpful and I appreciate your very kind support
+🌟
+Help Sean understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Hi Sean I tried to write a feedback for you in the feedback box and I accidentally pressed the return key, please pass the information to your managers. Sean is an excellent tutor, Sean has helped me to be a better coder and to learn how the system operates, I have a much better understanding now and I am very grateful for Sean's amazing tutoring skills and guidance. Sean puts the fun back into learning and it helps to want to learn more.
+Hi Sean I tried to write a feedback for you in the feedback box and I accidentally pressed the return key, please pass the information to your managers. Sean is an excellent tutor, Sean has helped me to be a better coder and to learn how the system operates, I have a much better understanding now and I am very grateful for Sean's amazing tutoring skills and guidance. Sean puts the fun back into learning and it helps to want to learn more.
+😄
+
+Write a reply…
+
+
 - I would like to say the support and encouragement from my mentor Miguel Martinez has been exceptionally outstanding. Miguel has never given up on me and I feel his support got me through a lot of stress and anxiety when I was doing this project.  I am forever touched with Miguels kindness and empathy and he has taught me the true meaning of dedication and commitment.  Miguel is a brilliant mentor and a great teacher.
 
 - I would also like to say thank you to all of the tutor support team for spending time with me to try and get the correct code to work.  There were times when I did not understand and the tutors were patient with me and helped me to work through the issues.
@@ -164,7 +244,7 @@ The code was rectified and the code now works and invalid data entry is not perm
 
  - The screenshot below was taken on the 13th of February 2002 and it shows what happens when a player inputs a number that has already been inputted, it states this position is not free, please try again.
 
-   ![Screenshot of checking data input](assets/screenshots/notfree.png)
+   ![Screenshot of position not free](assets/screenshots/notfree.png)
 
 
 ###  Remaining Bugs
